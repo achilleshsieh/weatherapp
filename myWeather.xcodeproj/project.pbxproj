@@ -15,6 +15,17 @@
 		C69EFCEB1C035E5700F07AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69EFCE91C035E5700F07AC8 /* LaunchScreen.storyboard */; };
 		C69EFCF61C035E5700F07AC8 /* myWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EFCF51C035E5700F07AC8 /* myWeatherTests.swift */; };
 		C69EFD011C035E5700F07AC8 /* myWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EFD001C035E5700F07AC8 /* myWeatherUITests.swift */; };
+		C69EFD1A1C036DB700F07AC8 /* cloudy.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD0F1C036DB700F07AC8 /* cloudy.GIF */; };
+		C69EFD1B1C036DB700F07AC8 /* hail.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD101C036DB700F07AC8 /* hail.GIF */; };
+		C69EFD1C1C036DB700F07AC8 /* lightning.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD111C036DB700F07AC8 /* lightning.GIF */; };
+		C69EFD1D1C036DB700F07AC8 /* storm.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD121C036DB700F07AC8 /* storm.GIF */; };
+		C69EFD1E1C036DB700F07AC8 /* raining.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD131C036DB700F07AC8 /* raining.GIF */; };
+		C69EFD1F1C036DB700F07AC8 /* snowWithRain.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD141C036DB700F07AC8 /* snowWithRain.GIF */; };
+		C69EFD201C036DB700F07AC8 /* snow.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD151C036DB700F07AC8 /* snow.GIF */; };
+		C69EFD211C036DB700F07AC8 /* sunny.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD161C036DB700F07AC8 /* sunny.GIF */; };
+		C69EFD221C036DB700F07AC8 /* partlyCloudy.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD171C036DB700F07AC8 /* partlyCloudy.GIF */; };
+		C69EFD231C036DB700F07AC8 /* partlyCloudyWithRain.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD181C036DB700F07AC8 /* partlyCloudyWithRain.GIF */; };
+		C69EFD241C036DB700F07AC8 /* windy.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C69EFD191C036DB700F07AC8 /* windy.GIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		C69EFCFC1C035E5700F07AC8 /* myWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69EFD001C035E5700F07AC8 /* myWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWeatherUITests.swift; sourceTree = "<group>"; };
 		C69EFD021C035E5700F07AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69EFD0F1C036DB700F07AC8 /* cloudy.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cloudy.GIF; sourceTree = "<group>"; };
+		C69EFD101C036DB700F07AC8 /* hail.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hail.GIF; sourceTree = "<group>"; };
+		C69EFD111C036DB700F07AC8 /* lightning.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lightning.GIF; sourceTree = "<group>"; };
+		C69EFD121C036DB700F07AC8 /* storm.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = storm.GIF; sourceTree = "<group>"; };
+		C69EFD131C036DB700F07AC8 /* raining.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raining.GIF; sourceTree = "<group>"; };
+		C69EFD141C036DB700F07AC8 /* snowWithRain.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snowWithRain.GIF; sourceTree = "<group>"; };
+		C69EFD151C036DB700F07AC8 /* snow.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snow.GIF; sourceTree = "<group>"; };
+		C69EFD161C036DB700F07AC8 /* sunny.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sunny.GIF; sourceTree = "<group>"; };
+		C69EFD171C036DB700F07AC8 /* partlyCloudy.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = partlyCloudy.GIF; sourceTree = "<group>"; };
+		C69EFD181C036DB700F07AC8 /* partlyCloudyWithRain.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = partlyCloudyWithRain.GIF; sourceTree = "<group>"; };
+		C69EFD191C036DB700F07AC8 /* windy.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = windy.GIF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,7 @@
 		C69EFCDC1C035E5700F07AC8 /* myWeather */ = {
 			isa = PBXGroup;
 			children = (
+				C69EFD0E1C036D7C00F07AC8 /* Resource */,
 				C69EFCDD1C035E5700F07AC8 /* AppDelegate.swift */,
 				C69EFCDF1C035E5700F07AC8 /* ViewController.swift */,
 				C69EFCE11C035E5700F07AC8 /* Main.storyboard */,
@@ -126,6 +149,24 @@
 				C69EFD021C035E5700F07AC8 /* Info.plist */,
 			);
 			path = myWeatherUITests;
+			sourceTree = "<group>";
+		};
+		C69EFD0E1C036D7C00F07AC8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C69EFD0F1C036DB700F07AC8 /* cloudy.GIF */,
+				C69EFD101C036DB700F07AC8 /* hail.GIF */,
+				C69EFD111C036DB700F07AC8 /* lightning.GIF */,
+				C69EFD121C036DB700F07AC8 /* storm.GIF */,
+				C69EFD131C036DB700F07AC8 /* raining.GIF */,
+				C69EFD141C036DB700F07AC8 /* snowWithRain.GIF */,
+				C69EFD151C036DB700F07AC8 /* snow.GIF */,
+				C69EFD161C036DB700F07AC8 /* sunny.GIF */,
+				C69EFD171C036DB700F07AC8 /* partlyCloudy.GIF */,
+				C69EFD181C036DB700F07AC8 /* partlyCloudyWithRain.GIF */,
+				C69EFD191C036DB700F07AC8 /* windy.GIF */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +276,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69EFD221C036DB700F07AC8 /* partlyCloudy.GIF in Resources */,
+				C69EFD1E1C036DB700F07AC8 /* raining.GIF in Resources */,
+				C69EFD231C036DB700F07AC8 /* partlyCloudyWithRain.GIF in Resources */,
 				C69EFCEB1C035E5700F07AC8 /* LaunchScreen.storyboard in Resources */,
+				C69EFD211C036DB700F07AC8 /* sunny.GIF in Resources */,
+				C69EFD1B1C036DB700F07AC8 /* hail.GIF in Resources */,
+				C69EFD1A1C036DB700F07AC8 /* cloudy.GIF in Resources */,
+				C69EFD201C036DB700F07AC8 /* snow.GIF in Resources */,
+				C69EFD1D1C036DB700F07AC8 /* storm.GIF in Resources */,
+				C69EFD1C1C036DB700F07AC8 /* lightning.GIF in Resources */,
+				C69EFD241C036DB700F07AC8 /* windy.GIF in Resources */,
+				C69EFD1F1C036DB700F07AC8 /* snowWithRain.GIF in Resources */,
 				C69EFCE81C035E5700F07AC8 /* Assets.xcassets in Resources */,
 				C69EFCE31C035E5700F07AC8 /* Main.storyboard in Resources */,
 			);
