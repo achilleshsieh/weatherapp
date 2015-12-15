@@ -1,0 +1,51 @@
+
+    @IBOutlet weak var firstNameField: UITextField!
+    @IBOutlet weak var lastNameField: UITextField!
+    @IBOutlet weak var genderField: UITextField!
+
+    @IBOutlet weak var dobPicker: UIDatePicker!
+    
+    var authorId: Int!
+    var strDate: String!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        let url = NSURL(string: "http://test0036247.azurewebsites.net/api/BooksApi")
+        Alamofire.request(.GET, url!).responseJSON { response in
+            //print(response.data)
+            //print(response.result)
+            if let resultJSON = response.result.value {
+                print("\(resultJSON)")
+            }
+        }
+        
+    }
+    
+    @IBAction func dobPickerAction(sender: AnyObject) {
+        let dobFormatter = NSDateFormatter()
+        dobFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
+        dobFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
+        self.strDate = dobFormatter.stringFromDate(dobPicker.date)
+    }
+    
+
+    @IBAction func addPressed(sender: UIButton) {
+        let authorUrl = NSURL(string: "http://test0036247.azurewebsites.net/api/AuthorsApi")
+        Alamofire.request(.GET, authorUrl!).responseJSON { response in
+            if let resultJSON = response.result.value as? [Dictionary<String, AnyObject>] {
+                self.authorId = resultJSON.count + 1
+                
+                let authorData: [String : AnyObject] = [
+                    "Id": self.authorId,
+                    "First": self.firstNameField.text!,
+                    "Last": self.lastNameField.text!,
+                    "Gender": self.genderField.text!,
+                    "DOB": self.strDate!
+                ]
+                
+                Alamofire.request(.POST, authorUrl!, parameters: authorData, encoding: .JSON)
+            }
+        }
+        
+    }
